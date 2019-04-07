@@ -1,3 +1,3 @@
-$.get('functions/hello',function(data){
+$.get('hello',function(data){
   console.log(data)
 })
