@@ -1,4 +1,3 @@
-var request = require("request");
 
 exports.handler = function(event, context, callback) {
 
