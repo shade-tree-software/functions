@@ -1,3 +1,3 @@
-$.get('hello',function(data){
+$.get('.netlify/functions/hello',function(data){
   console.log(data)
 })
