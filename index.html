@@ -23,7 +23,19 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <div id="hello">Hello world! This is HTML5 Boilerplate.</div>
+  <div id="messages"></div>
+<form name="contact" method="POST" data-netlify="true" action="index">
+  <p>
+<textarea name="message"></textarea>
+  </p>
+<span>Select your user name: </span><select name="who">
+  <option value="student">student</option>
+  <option value="professor">professor</option>
+</select>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
